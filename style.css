@@ -224,7 +224,7 @@ section {
 
   .hero-text {
     padding: 2rem;
-    width: 50%;
+    width: 55%;
   }
 
   .hero-text h1 {
@@ -239,27 +239,36 @@ section {
   }
 }
 
+@media (max-width: 650px){
+
+  .hero-text {
+    padding: 2rem;
+    width: 60%;
+  }
+}
+
+
 @media (max-width: 552px) {
   .hero-text {
     top: 15%;
-      width: 60%;
+      width: 55%;
       height: auto;
-    padding: 1rem;
+    padding: 1.2rem;
   }
 
   .hero-text h1 {
-    font-size: 1rem;
+    font-size: 1.5rem;
     letter-spacing: 1px;
   }
 
   .hero-bg p {
-    font-size: 10px;
+    font-size: 13px;
   }
 }
 
 @media (max-width: 320px) {
   .hero-text {
-    width: 80%;
+    width: 50%;
     height: auto;
   }
 }
